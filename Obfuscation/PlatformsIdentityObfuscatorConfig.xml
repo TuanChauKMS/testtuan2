@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE dotfuscator SYSTEM "http://www.preemptive.com/dotfuscator/dtd/dotfuscator_v2.3.dtd">
+<dotfuscator version="2.3">
+  <input>
+    <loadpaths>
+      <file dir="${configdir}\..\packages\RestSharp.106.3.1\lib\net452" />
+    </loadpaths>
+    <asmlist>
+      <inputassembly refid="61aa01bd-f375-4675-afea-d43c7585d31d">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <file dir="${configdir}" name="QSR.NVivo.Plugins.PlatformsIdentity.dll" />
+      </inputassembly>
+    </asmlist>
+  </input>
+  <output>
+    <file dir="${configdir}\Dotfuscated" />
+  </output>
+  <renaming>
+    <option>explicitoverrides</option>
+    <excludelist>
+      <namespace name="QSR.NVivo.Plugins.PlatformsIdentity.Responses" regex="true" />
+      <namespace name="QSR.NVivo.Plugins.PlatformsIdentity.Responses.CloudAccounts" regex="true" />
+      <namespace name="QSR.NVivo.Plugins.PlatformsIdentity.Factory" />
+      <namespace name="QSR.NVivo.Plugins.PlatformsIdentity.Forms" />
+      <type name="QSR.NVivo.Plugins.PlatformsIdentity.Core.PlatformsIdentityPlugin" regex="true">
+        <method name=".*" speclist="+public" regex="true" />
+      </type>
+      <type name="QSR.NVivo.Plugins.PlatformsIdentity.Core.Credentials" />
+    </excludelist>
+    <mapping>
+      <mapoutput overwrite="false">
+        <file dir="${configdir}\Dotfuscated" name="PlatformsIdentityDotfuscatorMap.xml" />
+      </mapoutput>
+    </mapping>
+    <referencerulelist />
+  </renaming>
+  <controlflow level="high" />
+  <sos mergeruntime="true" />
+  <smartobfuscation>
+    <smartobfuscationreport verbosity="all" overwrite="false" />
+  </smartobfuscation>
+</dotfuscator>

@@ -1,0 +1,2 @@
+"C:\Program Files (x86)\PreEmptive Solutions\Dotfuscator Professional Edition 4.28.0\dotfuscator.exe" PlatformsIdentityObfuscatorConfig.xml
+"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Bin\sn.exe" -R Dotfuscated\QSR.NVivo.Plugins.PlatformsIdentity.dll QSRKey.snk

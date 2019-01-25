@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlatformsIdentity.Interface", "PlatformsIdentity.Interface\PlatformsIdentity.Interface.csproj", "{7199840C-176D-40FB-9EFD-20E130705911}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApplication", "TestApplication\TestApplication.csproj", "{55115247-68D7-4335-A852-83295702671B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7199840C-176D-40FB-9EFD-20E130705911} = {7199840C-176D-40FB-9EFD-20E130705911}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlatformsIdentity", "PlatformsIdentity\PlatformsIdentity.csproj", "{C2327851-4D02-48CD-8406-F9BF0040E30D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlatformsIdentity.Test", "PlatformsIdentity.Test\PlatformsIdentity.Test.csproj", "{FFCA21C7-F021-4E25-BE26-D00E98D3BDDE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Production|Any CPU = Production|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7199840C-176D-40FB-9EFD-20E130705911}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7199840C-176D-40FB-9EFD-20E130705911}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7199840C-176D-40FB-9EFD-20E130705911}.Production|Any CPU.ActiveCfg = Production|Any CPU
+		{7199840C-176D-40FB-9EFD-20E130705911}.Production|Any CPU.Build.0 = Production|Any CPU
+		{7199840C-176D-40FB-9EFD-20E130705911}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7199840C-176D-40FB-9EFD-20E130705911}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55115247-68D7-4335-A852-83295702671B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55115247-68D7-4335-A852-83295702671B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55115247-68D7-4335-A852-83295702671B}.Production|Any CPU.ActiveCfg = Production|Any CPU
+		{55115247-68D7-4335-A852-83295702671B}.Production|Any CPU.Build.0 = Production|Any CPU
+		{55115247-68D7-4335-A852-83295702671B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55115247-68D7-4335-A852-83295702671B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2327851-4D02-48CD-8406-F9BF0040E30D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2327851-4D02-48CD-8406-F9BF0040E30D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2327851-4D02-48CD-8406-F9BF0040E30D}.Production|Any CPU.ActiveCfg = Production|Any CPU
+		{C2327851-4D02-48CD-8406-F9BF0040E30D}.Production|Any CPU.Build.0 = Production|Any CPU
+		{C2327851-4D02-48CD-8406-F9BF0040E30D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2327851-4D02-48CD-8406-F9BF0040E30D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFCA21C7-F021-4E25-BE26-D00E98D3BDDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFCA21C7-F021-4E25-BE26-D00E98D3BDDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFCA21C7-F021-4E25-BE26-D00E98D3BDDE}.Production|Any CPU.ActiveCfg = Release|Any CPU
+		{FFCA21C7-F021-4E25-BE26-D00E98D3BDDE}.Production|Any CPU.Build.0 = Release|Any CPU
+		{FFCA21C7-F021-4E25-BE26-D00E98D3BDDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFCA21C7-F021-4E25-BE26-D00E98D3BDDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB16E973-000D-47DE-BDC2-69E7FB3359FF}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://qsrtfs:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = PlatformsIdentity\\PlatformsIdentity.csproj
+		SccProjectName1 = PlatformsIdentity
+		SccLocalPath1 = PlatformsIdentity
+		SccProjectUniqueName2 = PlatformsIdentity.Interface\\PlatformsIdentity.Interface.csproj
+		SccProjectName2 = PlatformsIdentity.Interface
+		SccLocalPath2 = PlatformsIdentity.Interface
+		SccProjectUniqueName3 = TestApplication\\TestApplication.csproj
+		SccProjectName3 = TestApplication
+		SccLocalPath3 = TestApplication
+		SccProjectUniqueName4 = PlatformsIdentity.Test\\PlatformsIdentity.Test.csproj
+		SccProjectName4 = PlatformsIdentity.Test
+		SccLocalPath4 = PlatformsIdentity.Test
+	EndGlobalSection
+EndGlobal

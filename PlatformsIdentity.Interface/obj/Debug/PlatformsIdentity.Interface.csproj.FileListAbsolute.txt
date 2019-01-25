@@ -1,0 +1,6 @@
+D:\QSR-NVIVO\D1FRHR2_1\Plugins\PlatformsIdentity\PlatformsIdentity.Interface\bin\Debug\QSR.NVivo.Plugins.PlatformsIdentity.Interface.dll
+D:\QSR-NVIVO\D1FRHR2_1\Plugins\PlatformsIdentity\PlatformsIdentity.Interface\bin\Debug\QSR.NVivo.Plugins.PlatformsIdentity.Interface.pdb
+D:\QSR-NVIVO\D1FRHR2_1\Plugins\PlatformsIdentity\PlatformsIdentity.Interface\obj\Debug\PlatformsIdentity.Interface.csprojAssemblyReference.cache
+D:\QSR-NVIVO\D1FRHR2_1\Plugins\PlatformsIdentity\PlatformsIdentity.Interface\obj\Debug\PlatformsIdentity.Interface.csproj.CoreCompileInputs.cache
+D:\QSR-NVIVO\D1FRHR2_1\Plugins\PlatformsIdentity\PlatformsIdentity.Interface\obj\Debug\QSR.NVivo.Plugins.PlatformsIdentity.Interface.dll
+D:\QSR-NVIVO\D1FRHR2_1\Plugins\PlatformsIdentity\PlatformsIdentity.Interface\obj\Debug\QSR.NVivo.Plugins.PlatformsIdentity.Interface.pdb
